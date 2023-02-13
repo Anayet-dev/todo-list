@@ -42,6 +42,7 @@ addItem.addEventListener("click", function () {
       tr.innerHTML = "";
       count = 0;
       p.innerText = "";
+      document.getElementById("input-value").value = "";
     });
   }
 });
